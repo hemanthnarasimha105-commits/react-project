@@ -1,0 +1,66 @@
+/*  Drinks Page Styling */
+.container {
+  max-width: 1200px;
+}
+
+/*  Card styling */
+.card {
+  border: none;
+  height: 500px;         
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+/*  Image styling */
+.card-img-custom {
+  height: 300px;           
+  width: 100%;             
+  object-fit: contain;     
+  padding: 15px;            
+  background-color: #f9f9f9; 
+  transition: transform 0.3s ease;
+}
+
+.card-img-custom:hover {
+  transform: scale(1.05);   
+}
+
+/*  Title */
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+/*  Description */
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+  min-height: 40px; /* keeps card aligned even if text is short */
+}
+
+/*  Price styling */
+.text-success {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/*  Add to Cart Button */
+.btn-info {
+  background-color: #17a2b8;
+  border: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+  transform: scale(1.05);
+}

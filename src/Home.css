@@ -1,0 +1,58 @@
+/* Carousel */
+.carousel {
+  background: #fff;
+  margin-top: 0 !important;   
+  padding-top: 0 !important;
+}
+
+.carousel-item {
+  position: relative; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  opacity: 0.7; 
+  transition: opacity 0.8s ease-in-out, transform 0.5s ease;
+}
+
+/* Dark overlay inside carousel */
+.carousel-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.35); 
+  z-index: 1;
+}
+
+/* Text Overlay */
+.carousel-caption {
+  position: absolute;
+  bottom: 20px;
+  z-index: 2; /* ✅ above overlay */
+  text-align: center;
+}
+
+.carousel-caption h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+  /* background: rgba(0, 0, 0, 0.5); ✅ transparent bg behind text */
+  padding: 8px 16px;
+  border-radius: 10px;
+  display: inline-block;
+}

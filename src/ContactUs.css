@@ -1,0 +1,78 @@
+
+.contact-hero {
+  background: linear-gradient(rgba(255, 235, 59, 0.8), rgba(255, 193, 7, 0.8)), url('/images/food-bg.jpg') center/cover no-repeat;
+  color: #212529;
+}
+
+.contact-hero h1 {
+  font-size: 3rem;
+}
+
+.contact-hero p {
+  font-size: 1.25rem;
+}
+
+/* Section Headings */
+section h2 {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/* Cards for Contact Info */
+.card {
+  border: none;
+  border-radius: 1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Form Styles */
+form input,
+form textarea {
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+}
+
+form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styles */
+footer a:hover {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .contact-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .contact-hero p {
+    font-size: 1rem;
+  }
+
+  .card h3 {
+    font-size: 1.5rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+}
