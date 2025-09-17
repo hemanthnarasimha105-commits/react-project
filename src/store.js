@@ -96,7 +96,7 @@ const productSlice = createSlice({
       { id: "choco-6", name: "Chocolate Donut", price: 37, image: "/images/ChocolateDonut.png", description: "Soft donut coated with rich chocolate glaze." },
       { id: "choco-7", name: "Chocolate Muffin", price: 42, image: "/images/ChocolateMuffin.png", description: "Moist muffin filled with gooey chocolate chips." },
       { id: "choco-8", name: "Chocolate Truffle", price: 55, image: "/images/ChocolateTruffle.png", description: "Decadent chocolate truffles dusted with cocoa powder." },
-      { id: "choco-9", name: "Chocolate Ice Cream", price: 40, image: "/images/ChocolateIcegitCream.png", description: "Classic chocolate ice cream made from real cocoa." },
+      { id: "choco-9", name: "Chocolate Ice Cream", price: 40, image: "/images/ChocolateIceCream.png", description: "Classic chocolate ice cream made from real cocoa." },
       { id: "choco-10", name: "Chocolate Milkshake", price: 58, image: "/images/ChocolateMilkshake.png", description: "Thick and creamy milkshake blended with chocolate syrup." },
       { id: "choco-11", name: "Hot Chocolate", price: 50, image: "/images/HotChocolate.png", description: "Warm drink made with melted chocolate and milk." },
       { id: "choco-12", name: "Chocolate Pastry", price: 42, image: "/images/ChocolatePastry.png", description: "Soft pastry layered with chocolate cream." },
