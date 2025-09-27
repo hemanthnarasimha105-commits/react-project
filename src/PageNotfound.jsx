@@ -4,7 +4,7 @@ function PageNotfound() {
   return (
     <>
 
-    <img src='/images/404 page notfound.png' height={500} width={700}/>
+    <img src='/images/404pagenotfound.png' height={500} width={700}/>
       
     </>
   )
